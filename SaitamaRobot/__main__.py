@@ -52,8 +52,8 @@ def get_readable_time(seconds: int) -> str:
 
 
 
-PM_START_TEXT = """
-`Hey There!` [👩‍💼](https://telegra.ph/file/c766d686089a43e0ff33a.jpg) `My name is` *Emilia*
+PM_START_TEXT = ""
+`Hey There!` [👩‍💼](https://t.me/c/1222131699/17) `My name is` *hattori - kun*
 `I am an Anime Themed group management bot.
 I specialize in managing anime and similar themed groups.
 You can find my list of available commands with` *🔐Commands*   
@@ -62,7 +62,7 @@ You can find my list of available commands with` *🔐Commands*
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD EMILIA TO YOUR GROUP ➕️",url="t.me/EmiliaAnimeRoBot?startgroup=true"),
+            text="➕️ ADD HATTORI-KUN TO YOUR GROUP ➕️",url="t.me/EmiliaAnimeRoBot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(
@@ -93,7 +93,7 @@ InlineKeyboardButton(
 
 
 HELP_STRINGS = """
-`Hey there! My name is` [Emilia!]("https://telegra.ph/file/e5fc94ada18369f89c832.jpg") 
+`Hey there! My name is` [HATTORI-KUN!]("https://t.me/c/1222131699/17") 
 I'm a Half Elf and help admins manage their groups with Some Powerful Features! `Have a look at the following for an idea of some of the things I can help you with.`"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
